@@ -13,7 +13,7 @@ export class FooterComponent implements OnInit {
 
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    
   }
 
 }

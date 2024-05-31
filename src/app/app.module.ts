@@ -12,6 +12,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+
+
 
 
 
@@ -30,7 +33,9 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
     AppRoutingModule,
     RouterOutlet,
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    GoogleMapsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

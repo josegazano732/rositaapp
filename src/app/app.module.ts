@@ -13,6 +13,9 @@ import { ItemComponent } from './pages/item/item.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { MapsComponent } from './componentes/maps/maps.component';
+import { FormContactComponent } from './componentes/form-contact/form-contact.component';
+
 
 
 
@@ -26,7 +29,10 @@ import { GoogleMapsModule } from '@angular/google-maps';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    ContactoComponent
+    ContactoComponent,
+    MapsComponent,
+    FormContactComponent,
+   
   ],
   imports: [
     BrowserModule,

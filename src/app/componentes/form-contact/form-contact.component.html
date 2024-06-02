@@ -1,10 +1,20 @@
 
-<form id="contact-form" action="#0" class="ae-form--full">
+<form id="contact-form" action="https://formsubmit.co/ec1d41e53e0531e5e4093188c2f9cf39" method="post"
+ class="ae-form--full">
     <input type="text" placeholder="* Nombre" required>
     <input type="email" placeholder="* Email" required>
-    <textarea placeholder="Mensaje..." cols="30" rows="4"></textarea>
-    <p class="au-xs-ta-right au-pt-4 group-buttons"><a href="#0" class="arrow-button arrow-button--right arrow-button--out">Enviar<span class="arrow-cont">
+    <textarea name="message" placeholder="Mensaje..." cols="30" rows="4"></textarea>
+    <p class="au-xs-ta-right au-pt-4 group-buttons">
+      
+      <button type="submit" class="arrow-button arrow-button--right arrow-button--out">
+        Enviar<span class="arrow-cont">
           <svg>
             <use xlink:href="assets/img/symbols.svg#arrow"></use>
-          </svg></span></a></p>
+          </svg></span>
+        </button>
+      </p>
+
+      <input type="hidden" name="_next" value="http://localhost:4200/#/contacto">
+      <input type="hidden" name="_captcha" value="false"> 
+      
   </form>

@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
+import {HttpClientModule} from '@angular/common/http'
 // Rutas
 import { AppRoutingModule } from './app-routing.module';
 
@@ -40,7 +42,10 @@ import { FormContactComponent } from './componentes/form-contact/form-contact.co
     RouterOutlet,
     RouterLink,
     RouterLinkActive,
-    GoogleMapsModule
+    GoogleMapsModule,
+    HttpClientModule,
+    HttpClientModule
+  
     
   ],
   providers: [],

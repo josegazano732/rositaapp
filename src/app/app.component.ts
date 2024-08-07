@@ -8,6 +8,8 @@ import { InfoPaginaService } from './services/info-pagina.service';
 })
 export class AppComponent {
   
+  data:any=[]
+
   constructor(public _infoPagina: InfoPaginaService){
   }
 
